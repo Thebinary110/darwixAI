@@ -1,0 +1,212 @@
+# 🏆 Ultimate Empathetic Code Reviewer - .gitignore
+
+# ==============================================================================
+# PYTHON
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+.vevn
+env/
+venv/
+vevn/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ==============================================================================
+# PROJECT SPECIFIC
+# ==============================================================================
+
+# Generated reports (keep one example, ignore the rest)
+*empathetic_review_report.md
+*ultimate_empathetic_review_report.md
+# Keep the example
+!example_output.md
+
+# API Keys and secrets
+*.key
+.env.local
+.env.production
+.env.staging
+secrets.json
+config.json
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+logs/
+
+# Test files (if we had any)
+test_output/
+test_results/
+
+# Ollama model cache (if downloaded)
+ollama_models/
+
+# ==============================================================================
+# HACKATHON SUBMISSION
+# ==============================================================================
+
+# Submission packages
+submission.zip
+*_submission.zip
+submission/
+
+# Draft files
+draft_*
+old_*
+backup_*
+
+# ==============================================================================
+# KEEP THESE FILES
+# ==============================================================================
+
+# Core solution files - ALWAYS KEEP
+!ultimate_reviewer.py
+!gemini_reviewer.py
+!advanced_reviewer.py
+!main.py
+!test_input.json
+!requirements.txt
+!README.md
+!ULTIMATE_README.md
+!QUICK_SETUP.md
+!FINAL_SUBMISSION_READY.md
+
+# Documentation
+!*.md
+
+# Example outputs for demonstration
+!example_empathetic_review_report.md
